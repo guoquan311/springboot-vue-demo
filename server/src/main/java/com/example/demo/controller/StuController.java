@@ -22,9 +22,9 @@ public class StuController {
     @Resource
     private UserService userService;
 
-    @GetMapping("/index222")
+    @GetMapping("/index")
     public String sayHello(){
-        return "ooooooooo";
+        return "Welcome to Spring Boot!";
     }
 
     @GetMapping("/findAll")
